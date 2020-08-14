@@ -4,7 +4,7 @@ variable "secret_key"{}
 
 provider "aws" {
   version    = "~> 2.39"
-  region     = "ap-northeast-1"
+  region     = "us-east-2"
   access_key = var.access_key
   secret_key = var.secret_key
 }
