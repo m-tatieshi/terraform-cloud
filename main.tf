@@ -1,5 +1,5 @@
-variable "var.access_key"{}
-variable "var.secret_key"{}
+variable "access_key"{}
+variable "secret_key"{}
 
 
 provider "aws" {
